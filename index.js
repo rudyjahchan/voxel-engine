@@ -657,7 +657,7 @@ Game.prototype.initializeTimer = function(rate) {
   var wholeTick
   
   self.frameUpdated = true
-  self.interval = setInterval(timer, 0)
+  self.interval = setInterval(timer, 10)
   return self.interval
   
   function timer() {
